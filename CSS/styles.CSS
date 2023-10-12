@@ -59,7 +59,6 @@ body{
     text-transform: uppercase;
     color: var(--IRIS, #4D5AE5);
     text-decoration: none;
-
 }
 
 .logo-type-span{
@@ -95,7 +94,6 @@ body{
     line-height: 1.5;
     letter-spacing: 0.64px;
     color: #FFFFFF;
-
 }
 
 .main-type-button:hover,
