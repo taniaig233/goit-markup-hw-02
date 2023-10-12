@@ -1,0 +1,153 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+   
+    
+}
+
+.menu{
+    list-style-type: none;
+}
+
+.menu-contacts{
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.link:hover,
+.link.focus{
+    color: #9747ff;
+}
+
+.link-contacts:hover,
+.link-contacts:focus{
+    color: #9747ff;
+}
+
+.link-contacts{
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--SLATE, #434455);
+}
+
+.logo-type{
+    
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: var(--IRIS, #4D5AE5);
+    text-decoration: none;
+
+}
+
+.logo-type-span{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-title{
+    text-align: center;       
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.32px;
+    color: var(--WHITE, #FFF);
+}
+
+.box-first{
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.main-type-button{
+    cursor: pointer;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.second-title-unvisible{
+    visibility: hidden;
+}
+
+.third-title{
+    list-style-type: none;
+}
+
+.box-second{
+    background: #FFFFFF;
+}
+
+.third-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.third-title-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--SLATE, #434455);
+}
+
+.box-third{
+    background: var(--CLOUD, #F4F4FD);
+}
+
+.second-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.box-fourth{
+    background: #FFFFFF;
+}
+
+.main-footer{
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.main-footer-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--CLOUD, #F4F4FD);
+}
+
+.logo-type-span-footer{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: var(--CLOUD, #F4F4FD);
+}
