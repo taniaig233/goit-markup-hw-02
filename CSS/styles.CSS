@@ -1,8 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
-   
+    background-color: #FFFFFF; 
     
 }
 
@@ -103,7 +102,6 @@ body{
 .main-type-button:focus{
     color: #404bbf;
 }
-
 
 .second-title-unvisible{
     visibility: hidden;
