@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
    
     
 }
@@ -9,8 +10,16 @@ body{
     list-style-type: none;
 }
 
+.main-contacts{
+    font-style: normal;
+}
+
 .menu-contacts{
     list-style-type: none;
+}
+
+.menu-item-image{
+    background-color: #FFFFFF;
 }
 
 .link{
@@ -24,18 +33,17 @@ body{
 
 .link:hover,
 .link.focus{
-    color: #9747ff;
+    color: #404bbf;
 }
 
 .link-contacts:hover,
 .link-contacts:focus{
-    color: #9747ff;
+    color: #404bbf;
 }
 
 .link-contacts{
     text-decoration: none;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -44,7 +52,7 @@ body{
 
 .logo-type{
     
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -71,7 +79,7 @@ body{
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.32px;
+    letter-spacing: 1.12px;
     color: var(--WHITE, #FFF);
 }
 
@@ -84,7 +92,18 @@ body{
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    color: #FFFFFF;
+
 }
+
+.main-type-button:hover,
+.main-type-button:focus{
+    color: #404bbf;
+}
+
 
 .second-title-unvisible{
     visibility: hidden;
@@ -103,6 +122,7 @@ body{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    color: #2E2F42;
 }
 
 .third-title-text{
@@ -110,7 +130,6 @@ body{
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    color: var(--SLATE, #434455);
 }
 
 .box-third{
